@@ -1,0 +1,14 @@
+
+	    ------------------------------
+	*** | CONSTRUCTORES DE UNA CLASE | ***
+	    ------------------------------
+
+  En Java, podermos definir un método que se ejecute inicialmente y de manera automática.
+	" A este método se le llama constructor "
+
+  Un constructor tiene las siguientes características:
+	* Tiene el mismo nombre de la clase.
+	* Es el primer método que se ejecuta.
+	* No puede retornar datos.
+	* Se ejecuta una única vez.
+	* Tiene por objetivo incializar atributos.
