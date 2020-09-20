@@ -1,0 +1,55 @@
+  
+*** Herencia en Java (POO) ***
+ La herencia en Java, es el procedimiento utilizado para reutilizar código cuando creamos
+ nuevas clases. Pues lo único que se hace, es indicar al programa que queremos reutilizar
+ las variables y funciones de una clase que ya hemos creado anteriormente.
+
+ Es decir, podemos reutilizar los métodos y atributos de una clase que ya existe, y colocarlos
+ dentro de una nueva clase sin la necesidad de volver a escribir el código.
+ Los atributos son las variables, mientras que los métodos son las funciones de una clase.
+       +------------------------+	         +-------------------------+
+       | * Clase que ya existe: | -------------- | * Nueva Clase:          |
+       |  - Atributos           |    Herencia    |  Atributos y métodos de |
+       |  - Métodos             | -------------- |  la clase que ya existe |
+       +------------------------+                +-------------------------+
+
+ La herencia o reutilización de código, es una gran ventaja porque ayuda al programador a
+ ahorrar código y tiempo, al no tener que volver a escribir las mismas líneas de código
+ nuevamente.
+
+ Cuando utilizamos la herencia, existen dos términos muy peculiares para referirse a las clases:
+	* La clase padre o también conocida como clase base.
+	* La clase hija o también conocida como clase derivada.
+
+ ** La clase padre o clase base, es la clase que se debe crear primero, donde se encuentra escrito
+ el código que contiene a las variables y métodos que se van a reutilizar. **
+      	 +------------------------+
+    	 | * Clase Padre          |
+       	 |  - Atributos           |
+       	 |  - Métodos             |
+      	 +------------------------+
+
+ ** La clase hija o clase derivada, es la nueva clase, donde vamos a reutilizar los métodos y
+ atributos, que se crearon en la clase padre sin necesidad de volver a escribir el mismo código
+ para poder reutilizarlos.
+ Es decir, con la herencia, la clase hija puede tomar las variables y funciones que tiene su
+ clase padre y utilizarlas sin ningún problema. **
+         +-------------------------+
+         | * Clase Hija            |
+         |  Atributos y métodos de |
+         |  la clase padre         |
+         +-------------------------+
+
+ En programación, existe dos tipos de herencia:
+	* La herencia simple
+	* La herencia múltiple
+
+  Herencia Simple:
+ Sin embargo, en Java solo se puede utilizar la herencia simple.
+ La herencia simple consiste en que una clase hija solo puede heredar los atributos y métodos de
+ una única clase padre.
+ Es decir, una clase hija solo puede tener una clase padre, no puede tener más de una padre mientras
+ que una clase padre, si puede tener múltiples clases hijas.
+
+ *** En conclusión, la herencia sirve para compartir código creado previamente en una clase, y utilizarlo
+ infinidad de veces en otras clases, sin tener que volver a escribir el mimsmo código una y otra ves. ***
