@@ -1,0 +1,18 @@
+	
+  	~~ | LinkedList vs. ArrayList | ~~
+
+ La diferencia más notable entre LinkedList y ArrayList es la manera en que almacenan los objetos.
+
+   - Los ArrayList son mejores para almacenar y acceder a los datos, ya que es similar a un arreglo
+   normal.
+   - La LinkedList es mejor para manipular los datos, como al hacer muchas inserciones y borrados de
+   elementos.
+
+   Además almacenar el objeto, LinkedList almacena la dirección de memoria (o enlace) del elemento que
+   sigue. Son llamadas Listas Enlazadas porque cada elemento contiene un enlace al elemento vecino.
+
+   - Es mejor utilizar un ArrayList cuando es necesario un acceso rápido a los datos.
+   - Es mas comveniente utilizar un LinkedList cuando sea neceario hacer un gran número de inserciones 
+   y/o eliminaciones.
+
+  
