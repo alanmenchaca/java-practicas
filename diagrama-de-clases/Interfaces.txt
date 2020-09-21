@@ -1,0 +1,19 @@
+		============
+		| INTERFAZ |
+		============
+
+  * Una interfaz es una colección de operaciones que especifica los servicios de una clase 
+  o componente.
+  * Esas operaciones especifican un contrato que otro clasificador garantiza que cumplirá.
+  * Conjunto de operaciones que posee un nombre y que caracteriza el comportamiento de un
+   elemento.
+   - No poseen implementación
+   - Tienen visibilidad pública
+  * No contienen atributos.
+  * Pueden tener relaciones de generalización.
+
+ *** DIFERENCIAS ENTRE INTERFACES Y CLASES ABSTRACTAS ***
+  - Mientras que las clases que heredan de una clase abstracta si están relacionadas, no existe
+  ninguna relación entre diferentes clases que pueden implementar la interfaz.
+  - Las implementaciones pueden ser totalmente distintas, las clases pueden no tener nada que
+  ver entre sí, simplemente cumplen con el mismo interfaz.
