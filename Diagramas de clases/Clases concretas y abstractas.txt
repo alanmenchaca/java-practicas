@@ -1,0 +1,68 @@
+		----------
+		| CLASES |
+		----------
+
+  * Una clase define un conjunto de objetos que tienen un estado (estructura) y comportamiento
+  * El estado se describe por atributos y asociaciones
+   - Los atributos se utilizan para los valores puros de los datos sin identidad.
+   - Las asociaciones se utilizan para las conexiones entre objetos con identidad.
+  * Las piezas individuales de comportamiento invocable se describen mediante operaciones
+
+  * Construcción estructural por excelencia en los sistemas orientados a objetos
+  * Representa un concepto discreto dentro de la aplicación que se está modelando
+  * Sirve como molde para crear instancias = objetos
+    - Instanciación: proceso de creación de objetos.
+    - Una clase dicta la estructura y comportamiento de sus instancias.
+    - Las instancias contienen localmente datos que se corresponden con la estructura dictada por
+    la clase -> estado del objeto.
+
+  * Los detalles que muestran dependen de la fase del desarrolloen que nos encontremos
+		   	--------------
+	CONCEPTUAL ->	|   WINDOW   |
+		   	--------------
+
+		       -----------------------
+	 	       |       WINDOW        |
+		       -----------------------
+	               | size: Area          |
+		       | visibility: Boolean |
+	ANÁLISIS ->    -----------------------
+		       | display()	     |
+		       | hide()              |
+		       -----------------------
+
+		       -------------------------------
+	 	       |       	   WINDOW   	     |
+		       -------------------------------
+	               | +size: Area = (100, 100)    |
+		       | #visibility: Boolean = true |
+		       | -defaultSize: Rectangle     |
+   IMPLMENTACIÓN ->    | -xWin: XWindow  	     |
+		       -------------------------------
+		       | display()	     	     |
+		       | hide()              	     |
+		       |-attachX(xWin: XWindows      |
+		       -------------------------------
+
+  * Para hacer referencia a una clase que está presente en otro paquete se utilizará la sintaxis:
+ 	Nombre del Paquete::Nombre de la Clase
+
+  - Tiene una visibilidad con respecto a su contenedor
+  - Tiene una multiplicidad que especifica cuantas instancias de ella pueden existe
+  - Puede ser activa, si puede recibir eventos sin necesidad de que ninguna de sus operaciones sea
+  invocada.
+
+
+		---------------------
+		| CLASES ABSTRACTAS |
+		---------------------
+
+  * Clase no instanciable directamente
+    - Descripción incompleta
+    - No pensada para ser instanciada
+  * El objetivo fundamental de una clase abstracta es la especialización.
+
+  * Una clase concreta no puede tener operaciones abstractas, pero una clase abstracta sí puede
+  tener operaciones concretas.
+  * Las operaciones abstractas deben ser implementadas por las subclases.
+  * En UML el nombre de una clase abstracta aparece en cursiva.
