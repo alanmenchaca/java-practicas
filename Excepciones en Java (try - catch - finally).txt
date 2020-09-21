@@ -1,0 +1,22 @@
+
+		**** Excepciones en Java (try - catch - finally) ****
+ Las excepciones, son el medio que ofrece algunos lenguajes de programación, para tratar
+ situaciones anómalas que pueden suceder cuando ejecutamos un programa.
+ Es decir, el control de errores.
+
+ Algunos casos de situaciones anómalas son:
+	* Invocar a un método sobre un objeto "null".
+	* Intentar abrir un fichero que no existe para leerlo.
+	* Intentar dividir un número sobre "0".
+	
+ En conclusión, una excepción es una situación anómala que puede tener lugar, cuando
+ ejecutamos un determinado programa.
+ La forma en que el programador trate esta anomalía es lo que se conoce generalmente como
+ manejo de gestión de la excepción. Las excepciones son una forma de intentar conseguir que, 
+ si un código fuente no se ejecuta de la forma "prevista" de manera inicial, el programador
+ sea capaz de controlar la situación y establecer cómo debe responder el programa.
+
+ En java, existen palabras reservadas para el manejo de excepciones:
+	* try
+	* catch
+	* finally

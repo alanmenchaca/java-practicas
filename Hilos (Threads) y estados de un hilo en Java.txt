@@ -1,0 +1,40 @@
+
+	*** | Hilos en Java (Threads) | ***
+ Un hilo o también conocido como Thread por su traducción al inglés, es un flujo de control
+ dentro de un programa, el cual permite tener múltiples procesos corriendo de forma
+ simultánea.
+ Es decir, con ayuda de los hilos podremos ejecutar dos o más procesos al mismo tiempo, sin
+ tener que esperar a que finalice un proceso para poder ejecutar el siguiente.
+
+
+ *** | Estados de un hilo (ciclo de vida de un hilo) | ***
+ Un hilo representa distintos estados desde su creación, hasta el final de su ejecución. Estos estados son
+ los siguientes:
+
+	 * Primer estado: Nuevo (new)
+  El hilo (thread), ha sido creado pero no inicializado, es decir, no se ha ejecutado todavía el método start().
+  Se producirá un mensaje de error (IllegalThreadStateException) si se intenta ejecutar cualquier método de la 
+  clase Thread Excepto con el método start().
+
+	* Segundo estado: Ejecutable (Runnable)
+  Cuando el método start() crea los recursos del sistema necesarios para ejecutar el hilo, programa el thread
+  para ejecutarse, y llama al método run() del thread. En este punto el hilo está en el estado "Ejecutable".
+
+	* Tercer estado: Bloqueado (Blocked o Not Runnable)
+  En este estado, el hilo se encuentra en ejecución, pero existe una tarea o actividad del mismo hilo que lo
+  impide. El estado bloqueado, basicamente consiste en poder bloquear la ejecución de un hilo por tiempo
+  definido, y una ves transcurrido este tiempo definido, el hilo de manera automatica va a continuar con su 
+  ejecución.
+
+	* Cuarto estado: Muerto (Dead) / Finalizado
+  Un hilo puede morir de dos formas: por causas naturales o siendo asesinado (parado). Una muerte natural se
+  produce cuando el método run() termina normalmente, mientras que una muerte provocada se produce cuando existe
+  una instrucción que obligue al hilo a finalizar sin haber concluido su tarea por completo.
+
+	    -----------------------
+	*** SINCRONIZACIÓN DE HILOS ***
+	    -----------------------
+  La sincronización de hilos permite controlar el tiempo y forma de ejecución de varios hilos ejecutándose de
+  manera simultánea. Cuya finalidad, es evitar que un hilo provoque el entorpecimiento de otro hilo al momento de
+  estar ejecutando sus respectivas tareas.
+  O bien, para establecer un orden de ejecución en nuestros programas al utilizar hilos.
