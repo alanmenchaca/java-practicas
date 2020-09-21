@@ -1,0 +1,35 @@
+
+  ~~ | Listas en Java | ~~
+
+  Las listas, son un Tipo de Dato Abstracto que nos permite almacenar datos de una forma organizada al igual
+  que los vectores pero de una forma organizada al igual que los vectores, pero, a diferencia de estos, esta
+  estructura es dinámica, por lo que no es necesario conocer la cantidad de elementos que va a contener.
+  En una lista, cada elemento apunta al siguiente elemento excepto el último elemento, el cual no tiene un
+  sucesor y por tal motivo el valor del enlace es null.
+
+  En este caso, los elementos son registros que contienen el dato a almacenar y un enlace al siguiente elemento.
+  Los elementos de una lista, suelen recibir también el nombre de nodos de la lista.
+
+  Cada nodo tiene dos campos:
+   - Un campo, con información.
+   - Un campo, con un apuntador al siguiente nodo de la lista.
+
+  Dependiendo del procedimiento de inserción y extracción de nodos en la lista, se tienen los siguientes tipos:
+   + Listas tipo pila.
+   + Listas tipo cola.
+   + Listas genéricas.
+
+
+    --------------------
+  ~ | Listas tipo Pila | ~
+    --------------------
+  Una lista es de tipo pila, cuando las inserciones y extracciones se relizan por el mismo lado de la lista.
+  Estas listas tienen una característica en particular, la cual consiste en que el último elemento en entrar
+  a la lista es el primero en salir.
+  También se les llama listas LIFO (Last In First Out - último en entrar primero en salir).
+  
+  Una pila al ser una lista puede almacenar en el campo de información de un nodo cualquier tipo de valor:
+   - Valores enteros, valores flotantes, cadenas de caracteres, objetos, etc.
+
+  
+
