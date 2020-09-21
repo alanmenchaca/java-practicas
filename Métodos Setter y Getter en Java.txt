@@ -1,0 +1,14 @@
+
+    Setter y Getter
+  Los setters y getters, son métodos que permiten el acceso a los 
+  atributos de una clase que están encapsulados de manera privada. Con la 
+  finalidad, de poder establecer y obtener datos de los atributos encapsulados.
+
+  El método get ("obtener"): accede a la clase para retornarnos el valor de algún 
+  atributo que queramos, este método si debe retornar un valor por lo cual la estructura
+  de este método debe contener el tipo de valor que vamos a retornar con ese método. 
+
+  El método set ("establecer"): nos sirve para asignar un valor un atributo de 
+  nuestra clase, esto se hace de manera directa con este método, como este método
+  no retorna nada,debe contener la palabra void en su estructura, y siempre 
+  debe recibir un parámetro de entrada. 

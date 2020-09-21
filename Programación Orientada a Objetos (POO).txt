@@ -1,0 +1,73 @@
+
+JAVA DESDE CERO
+Programación estructurada o procedimental
+Es un paradigma de programación orientado a mejorar la claridad, calidad y
+tiempo de desarrollo de un programa de computadora.
+
+utilizando únicamente subrutinas y tres estructuras:
+ * Secuencia
+ * Selección (if y switch)
+ * Iteración (bucles: for, while, do-while)
+
+--------------------------------------------------------------------------
+
+JAVA INTERMEDIO
+Programación Orientada a Objetos (POO)
+La POO, es una manera de diseñar y desarrollar software qu trata de imitar 
+la realidad tomando conceptos esenciales de ella.
+
+El primero de éstos es, precisamente, el de objeto, cuyos rasgos son la
+identidad, el estado y el comportamiento.
+
+ * La identidad, es el nombre que distingue a un objeto de otro. 
+ * El estado, son las características que lo describen al objeto.
+ * El comportamiento, es lo que puede hacer el objeto.
+
+***************************************************************************
+Java utiliza Programación Orientada a Objetos (OOP por sus siglas en inglés),
+un estilo de programación que prertende hacer el pensar al programar más
+cercano al pensar acerca del mundo real.
+ _________________________________________________________________________________
+| Una manzana es un objeto: así como la es una taza. Cada uno tiene su identidad  |
+| única. Es posible tener dos tazas que se vean idénticas, pero aun así son       |
+| objetos únicos y separados.                                                     |
+|_________________________________________________________________________________|
+
+Los objetos también tienen características, las cuales son utilizadas para 
+describirlos. Por ejemplo, un carro puede ser rojo o azul, una taza puede estar
+llena o vacía, y así sucesivamente. Estas características también son llamadas
+atributos. Un atributo describe el estado actual del objeto.
+
+En el mundo real, cada objeto se comporta a su propia manera. El carro se mueve,
+el teléfono repica, y así sucesivamente.
+Lo mismo aplica a los objetos: el comportamiento es específico al tipo de objeto.
+
+ _________________________________________________________________________________
+| En la programación orientada a objetos, cada objeto tiene tres dimensiones:     |
+| identidad, atributos y comportamiento. Los atributos describen el estado actual |
+| del objeto y lo que el objeto es capaz de hacer es demostrado a través del      |
+| comportamiento del objeto.							  |
+|_________________________________________________________________________________|
+
+** Un objeto es una instancia de una clase (cada objeto es llamado instancia de 
+una clase) **
+
+ ***   PROGRAMA ORIENTADO A OBJETOS   ***
+
+   * Crearíamos la Clase: Perro.java
+   * Tendríamos las variables: raza, color y edad
+   * Tendríamos los métodos: ladrar(), correr(), jugar(), comer() y dormir()
+   * Tendría indentificadores: Chester y Milo
+ 
+ * Un identificador, es el nombre del objeto.
+ * Las variables, son las características del objeto.
+ * Los métodos, son el comportamiento de nuestro objeto.
+
+ LA PALABRA RESERVADA THIS (POO)
+Con la programación orientada a objetos, podemos acceder a variables que se encuentran en otras clases.
+ La instancia de clases, es cuando hacemos que dos clases interactuen entre sí.
+
+ Al acceder a variables de instancia de una clase, nos podemos encontrar con variables que se llamen
+ igual que en la clase de donde estamos accediendo. Cuando esto sucede, debemos utilizar
+ la palabra reservada this. La palabra "this" indica, si se están utilizando variables
+ de instancia, o las variables de la clase desde la cual se está accediendo.
