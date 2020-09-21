@@ -1,0 +1,13 @@
+   
+	*** POLIMORFISMO ***
+ El término "Polimorfismo" es una palabra de origen griego que significa "muchas formas".
+ Este termino se utiliza en la POO para "referirse a la propiedad por la que es posible
+ enviar mensajes sintácticamente iguales a objetos de tipos distintos".
+ El polimorfismo en la programación orientada a objetos, es la capacidad que se le da a un 
+ método, de comportarse de manera diferente de acuerdo a la instancia creada.
+ Es decir, dependiendo de la clase con la que se este interactuando, será la función que
+ va a ejecutar el método.
+
+ El polimorfismo consiste en hacer que un método se comunique con clases diferentes, y
+ dependiendo de la clase con la que tenga comunicación, su comportamiento será
+ completamente diferente.
