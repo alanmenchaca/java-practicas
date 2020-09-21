@@ -1,0 +1,15 @@
+	
+	~~ | LA CLASE MATH | ~~
+
+  El JDK define varias clases útiles, siendo
+
+  La clase Math contiene métodos para realizar operciones y cálculos matemáticos como:
+	* Funciones Hiperbólicas.
+	* Funciones Trigonométricas.
+	* Conversión de Grados a Radianes, y viseversa.
+	* Paso de coordenadas rectangulares a polares.
+
+  Además, la clase Math tiene una referencia a las dos constantes más utilizadas en matemáticas con una
+  presición de 15 deciamles, las cuales son:
+	* e = 2.718281828459045
+	* pi = 3.141592653589793
