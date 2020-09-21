@@ -1,0 +1,24 @@
+
+	~~ ENCAPSULAMIENTO EN JAVA ~~
+
+ Una clase posee atributos y métodos
+   * Los atributos son variables que contiene nuestra clase.
+   * Mientras que los métodos son las funciones que va a realizar nuestra clase.
+
+ El encapsulamiento en java consiste en controlar el acceso a los datos, que
+ conforma un objeto o instancia de una clase.
+ Es decir, indicar que métodos y atributos son públicos, para poder revisar su
+ contenido e incluso ser modificados. Y a su vez indicar que métodos y atributos
+ son privados, para evitar el acceso a su contenido o que se realice alguna 
+ modificación en ellos.
+
+ El encapsulamiento consiste en ocultar los atributos y métodos de una clase,
+ para evitar que sean modificados desde otra clase. Esto con el fin de que en el 
+ caso de que otro programador utilice nuestra clase, no le sea posible cambiar 
+ su estado o comportamiento de manera imprevista o descontrolada.
+
+ Modificadores de acceso:
+ Los modificadores de acceso permiten dar un nivel de seguridad mayor a nuestras
+ aplicaciones restringiendo el acceso a diferentes atributos, métodos o constructores.
+ Asegurándonos que el usuario deba seguir una "ruta" especificada por nostros para
+ acceder a la información.
