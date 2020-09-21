@@ -1,0 +1,36 @@
+
+  *** Modificadores de Acceso ***
+ Los modificadores de acceso, permiten dar un nivel de seguridad mayor a nuestras clases,
+ restringiendo el acceso a diferentes atributos, métodos y constructores.
+ Asegurando que otro programador seguirá una ruta específicada por nosotros,
+ para acceder a la información.
+
+ En java existe 4 tipos de modificadores de acceso:
+   1.- public
+   2.- private
+   3.- protected
+   4.- default (modificador de acceso por defecto)
+   
+   1.- public:
+ El modificador de acceso public, permite acceder al elemento desde cualquier clase,
+ independientemente de que esta aparezca o no al paquete en que se encuentra el
+ elemento.
+
+   2.- private:
+ El modificador de acceso private, es el más restrictivo y específica que los elementos
+ que lo utilizan, sólo pueden ser accedidos desde la clase en la que se encuentran.
+ La única forma de acceder a este tipo de modificador, es creando los métodos getter
+ y setter. 
+  
+   3.- Protected:
+ El modificador protected, indica que los elementos sólo puede ser accedidos desde su
+ mismo paquete (al igual que el modificador por defecto). Y también desde cualquier
+ clase que "herede" la clase en que se encuentra, independientemente de si esta se
+ encuentra en el mismo paquete o no.
+
+   4.- Modificador de acceso por defecto (default):
+ El modificador de acceso por defecto, no tiene ninguna palabra reservada asociada,
+ pero se suele conocer como default, o package-private.
+ Cuando no especificamos ningún modificador de acceso, se utiliza el modificador
+ de acceso por defecto, que consiste en que el elemento puede ser accedido sólo 
+ desde las clases que pertenezcan al mismo paquete.
