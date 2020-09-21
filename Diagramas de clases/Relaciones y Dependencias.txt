@@ -1,0 +1,32 @@
+
+	RELACIONES
+
+  * Un sistema no tiene componentes independientes.
+  * Los elementos están conectados y colaboran en el funcionamiento del sitema.
+  * En el dominio del problema (y de la solución) las clases no están aisladas, sino que se
+  relacionan de diferentes formas.
+    - Una persona VIVE EN un apartamento
+    - Una Persona TRABAJA EN una empresa
+    - Una rosa ES UN TIPO DE flor
+    - Una rueda ES UNA PARTE DE un coche
+
+
+	RELACIÓN DE DEPENDENCIA
+  * Una relación entre dos elementos de forma que un cambio en un elemento (el proveedor) puede
+  afectar o proveer la información necesaria para el otro elemento (el cliente).
+  * Relación que muestra la relación entre un cliente y el proveedor de un servicio usado
+  por el cliente.
+
+
+	-------------------------------		     -----------
+	|       CuentaCorriente       |	   <<use>>   |   Math  |
+	-------------------------------		     -----------
+	| +descubiertoMaximo(): float | -----------> | +pow()  |
+	| +calcularIntereses()	      |		     | +sqrt() |
+	-------------------------------		     -----------
+
+	     Cliente (dependiente)	       Proveedor (independiente)
+
+ * Estereotipos
+  <<interface>>
+  <<use>>
