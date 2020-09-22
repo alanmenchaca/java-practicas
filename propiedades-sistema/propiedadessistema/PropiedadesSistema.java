@@ -19,7 +19,7 @@ public class PropiedadesSistema {
         de las propiedades del sistema en el que estemos trabajando. */
 
         // En caso de que la enumeración contenga elementos se seguirá iterando el ciclo while.
-        while (nombrePropiedades.hasMoreElements()) {
+        while (nombrePropiedades.hasMoreElements()) { 
             String nombrePropiedad = (String) nombrePropiedades.nextElement();
 
             // Por cada uno de los elementos solicitamos cada uno de los valores de la propiedad que vayamos encontrando.
